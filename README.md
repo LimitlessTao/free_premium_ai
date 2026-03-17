@@ -86,13 +86,6 @@
 
 免费额度：邮箱注册即可免费使用30天
 
-### Chatanywhere.tech
-
-链接：[Chatanywhere.tech](https://github.com/chatanywhere/GPT_API_free)
-
-高级模型：gpt-5.2，gpt-5.1
-
-免费额度：GitHub登录。gpt-5.2，gpt-5.1一天5次
 
 ### 英伟达Build
 
