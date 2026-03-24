@@ -22,7 +22,7 @@
 
 链接:  [AgentRouter](https://agentrouter.org/register?aff=z4u0)
 
-高级模型：claude-opus-4-6 ，claude-sonnet-4-6
+高级模型：glm-4.6
 
 免费额度：Linuxdo账号或注册时长满1年的Github账号登录即领200美元余额，每日签到25美元
 
