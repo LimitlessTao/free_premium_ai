@@ -34,13 +34,6 @@
 
 免费额度：Linuxdo账号或EDU.CN邮箱账号登录即领100美元余额，每日签到25美元
 
-### code-relay (code router)
-
-链接:  [code-relay](https://api.code-relay.com/register?aff=4UJf)
-
-高级模型：Claude Opus ，Claude Sonnet 
-
-免费额度：微信注册即送25美元余额
 
 ### AihubMix
 
