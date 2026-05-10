@@ -6,9 +6,9 @@
 
 ## 📌 收录标准  Inclusion Criteria
 
- 可免费使用 [LiveBench](https://livebench.ai/) 中任一 Global Average 高于 **70分** 的模型，平台每间隔一段时间有免费额度，或注册给予较大免费额度,模型不掺水（受系统提示词和一些功能被限制的不视为掺水），逆向不收录。 模型能力通过提示词检测与 [hvoy检测器](https://hvoy.ai/) 检测
+ 可免费使用 [LiveBench](https://livebench.ai/) 中任一 Global Average 高于 **70分** 的模型，平台每间隔一段时间有免费额度，或注册给予较大免费额度,模型不掺水（受系统提示词和一些功能被限制的不视为掺水），可为2API渠道但需能力正常。 模型能力通过提示词检测与 [hvoy检测器](https://hvoy.ai/) 检测
 
- > Models must be free to use and have a Global Average score higher than **70** on [LiveBench](https://livebench.ai/). Platforms should provide periodic free quotas or offer substantial free credits upon registration. Models must not be "watered down" (limitations imposed by system prompts or restricted features are not considered dilution). Reverse-engineered (API) models are not included. Model capabilities are verified through prompt testing and the [hvoy detector](https://hvoy.ai/).
+ > Feel free to use any model that scores over 70 on LiveBench. We offer recurring free credits and a big welcome bonus for new sign-ups. Our models are the real deal—no "watering" or model-swapping (though please note some system prompts and features might be restricted). We accept 2API channels as long as they perform as expected. All models are vetted via prompt checks and hvoy.ai.
 
 ## 📌 排序说明  Sorting Criteria
  易失效且有顶级模型（LiveBench前十名）的渠道放在最前面，无顶级模型的发现时间排名，如有失效，欢迎pr与issue反馈！
