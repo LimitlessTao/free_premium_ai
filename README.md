@@ -6,15 +6,25 @@
 
 ## 📌 收录标准
 
- 可免费使用 [LiveBench](https://livebench.ai/) 中任一 Global Average 高于 **65分** 的模型，平台每间隔一段时间有免费额度，或注册给予较大免费额度,模型不掺水（受系统提示词和一些功能被限制的不视为掺水），逆向不收录。
+ 可免费使用 [LiveBench](https://livebench.ai/) 中任一 Global Average 高于 **65分** 的模型，平台每间隔一段时间有免费额度，或注册给予较大免费额度,模型不掺水（受系统提示词和一些功能被限制的不视为掺水），逆向不收录。 模型能力通过提示词检测与 [hvoy检测器](https://hvoy.ai/) 检测
 
 ## 📌 平台列表
+
+#### freemodel.dev
+
+链接：[freemodel.dev](https://freemodel.dev/invite/FRE-010fbf71)
+
+高级模型：GPT5.5 GPT5.4 
+
+免费额度: 注册送四周会员，每周 $71.67 GPT 额度 + 5刀余额
+
+
 
 #### pollinations.ai
 
 链接：[pollinations.ai](https://enter.pollinations.ai/)
 
-高级模型：claude-sonnet-4-6 ，Moonshot Kimi K2.5， GLM-5
+高级模型：claude-sonnet-4-6 ，Moonshot Kimi K2.5， GLM-5 GPT5.4
 
 免费额度：每天送1pollinations ，GitHub登录，随用量增加
 
@@ -22,7 +32,7 @@
 
 链接:  [AgentRouter](https://agentrouter.org/register?aff=z4u0)
 
-高级模型：glm-4.6
+高级模型：glm-4
 
 免费额度：Linuxdo账号或注册时长满1年的Github账号登录即领200美元余额，每日签到25美元
 
@@ -30,7 +40,7 @@
 
 链接:  [Anyrouter](https://anyrouter.top/register?aff=Ae0q)
 
-高级模型：claude-opus-4-6 ，claude-sonnet-4-6
+高级模型：claude-opus-4-7 ，claude-sonnet-4-6
 
 免费额度：Linuxdo账号或EDU.CN邮箱账号登录即领100美元余额，每日签到25美元
 
@@ -67,7 +77,7 @@
 
 链接： [`https://modelscope.cn`](https://modelscope.cn)
 
-高级模型：GLM-5
+高级模型：GLM-5.1 GLM-5
 
 免费额度： 手机号登陆，每天 200 次调用，需要实名认证
 
