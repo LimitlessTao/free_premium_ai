@@ -8,11 +8,11 @@
 
  可免费使用 [LiveBench](https://livebench.ai/) 中任一 Global Average 高于 **65分** 的模型，平台每间隔一段时间有免费额度，或注册给予较大免费额度,模型不掺水（受系统提示词和一些功能被限制的不视为掺水），逆向不收录。 模型能力通过提示词检测与 [hvoy检测器](https://hvoy.ai/) 检测
 
- Models must be free to use and have a Global Average score higher than **65** on [LiveBench](https://livebench.ai/). Platforms should provide periodic free quotas or offer substantial free credits upon registration. Models must not be "watered down" (limitations imposed by system prompts or restricted features are not considered dilution). Reverse-engineered (API) models are not included. Model capabilities are verified through prompt testing and the [hvoy detector](https://hvoy.ai/).
+ > Models must be free to use and have a Global Average score higher than **65** on [LiveBench](https://livebench.ai/). Platforms should provide periodic free quotas or offer substantial free credits upon registration. Models must not be "watered down" (limitations imposed by system prompts or restricted features are not considered dilution). Reverse-engineered (API) models are not included. Model capabilities are verified through prompt testing and the [hvoy detector](https://hvoy.ai/).
 
 ## 📌 排序说明  Sorting Criteria
  易失效且有顶级模型（LiveBench前十名）的渠道放在最前面，无顶级模型的发现时间排名，如有失效，欢迎pr与issue反馈！
-  Channels that are highly volatile but feature top-tier models (LiveBench Top 10) are listed first. Others are ranked by discovery time. If any links are broken, PRs and issues are welcome!
+ > Channels that are highly volatile but feature top-tier models (LiveBench Top 10) are listed first. Others are ranked by discovery time. If any links are broken, PRs and issues are welcome!
 
 ## 📌 平台列表 List
 
