@@ -27,7 +27,7 @@
 
 高级模型：GPT5.5 GPT5.4 
 
-免费额度: 注册送四周会员，每周 $71.67 GPT 额度 + 5刀余额
+免费额度: 注册送四周会员，每周 $71.67 GPT 额度 + 5刀余额 ，限制CODEX/CLAUDECODE 平台调用
 
 ### 可萌中转站
 
@@ -59,7 +59,7 @@
 
 高级模型：claude-opus-4-7 ，claude-sonnet-4-6
 
-免费额度：Linuxdo账号或EDU.CN邮箱账号登录即领100美元余额，每日签到25美元
+免费额度：Linuxdo账号或EDU.CN邮箱账号登录即领100美元余额，每日签到25美元 限制CODEX/CLAUDECODE 平台调用
 
 
 ### AihubMix
@@ -84,7 +84,7 @@
 
 高级模型：Gemini 3 Pro，Gemini 3.1 Pro
 
-免费额度：邮箱注册即可免费使用30天，但模型存在降智问题
+免费额度：邮箱注册即可免费使用30天，但模型存在降智问题，无API
 
 ### Github Models
 
@@ -100,7 +100,7 @@
 
 高级模型：GPT-5.4 GPT-5.3 GPT-5.2
 
-免费额度： 无限量，需要E5/E3/高级版订阅， E5/E3账号可以通过 [教程](https://mp.weixin.qq.com/s/EnOZmo2MHRXrYpfPsG4e6g?poc_token=HGI8tWmjDFOTNqUhn6-sB-mNVfBSbR_nS3fTWuaE)  免费获取
+免费额度： 无限量，需要E5/E3/高级版订阅， E5/E3账号可以通过 [教程](https://mp.weixin.qq.com/s/EnOZmo2MHRXrYpfPsG4e6g?poc_token=HGI8tWmjDFOTNqUhn6-sB-mNVfBSbR_nS3fTWuaE)  免费获取，无API
 
 ### Codex 限时免费
 
@@ -108,15 +108,15 @@
 
 ### 英伟达Build
 
-链接： [`https://build.nvidia.com/`](https://build.nvidia.com/%E2%80%8B)
+链接： [`英伟达`](https://build.nvidia.com/%E2%80%8B)
 
 高级模型 : GLM-5，Kimi K2.5
 
 免费额度： 80rpm，需要绑定手机号
 
-### api520pro
+### 熊猫中转站
 
-链接： (https://api520.pro/register?aff=I0D3)
+链接： [熊猫中转站](https://api520.pro/register?aff=I0D3)
 
 高级模型：GPT5.4 Gemini3.1Pro
 
