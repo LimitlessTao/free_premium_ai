@@ -38,6 +38,14 @@
 
 ## 📌 平台列表 List
 
+### cpass
+
+链接： [cpass](https://api.cpass.cc/register?aff=dsYU)
+
+高级模型: GPT5.5 claude-opus-4-7
+
+免费额度与注册说明： 注册送7刀余额，加群送10刀，邮箱即可注册
+
 ### XAIO
 
 链接： [XAIO](https://dashboard.x-aio.com/zh/register?ref=7442bebbe10548dfb729)
