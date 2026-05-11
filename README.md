@@ -72,7 +72,7 @@
 
 链接:  [Anyrouter](https://anyrouter.top/register?aff=Ae0q)
 
-高级模型：claude-opus-4-7 ，claude-sonnet-4-6
+高级模型：claude-opus-4-7 ，GPT 5.5
 
 免费额度：Linuxdo账号或EDU.CN邮箱账号登录即领100美元余额，每日签到25美元 限制CODEX/CLAUDECODE 平台调用
 
@@ -113,7 +113,7 @@
 
 链接：[m365.cloud.microsoft](https://m365.cloud.microsoft/)
 
-高级模型：GPT-5.4 GPT-5.3 GPT-5.2
+高级模型：GPT-5.4 GPT-5.5 
 
 免费额度： 无限量，需要E5/E3/高级版订阅， E5/E3账号可以通过 [教程](https://mp.weixin.qq.com/s/EnOZmo2MHRXrYpfPsG4e6g?poc_token=HGI8tWmjDFOTNqUhn6-sB-mNVfBSbR_nS3fTWuaE)  免费获取，无API
 
@@ -125,7 +125,7 @@
 
 链接： [`英伟达`](https://build.nvidia.com/%E2%80%8B)
 
-高级模型 : GLM-5，Kimi K2.5
+高级模型 : GLM-5.1 DeepseekV3Pro
 
 免费额度： 80rpm，需要绑定手机号
 
@@ -136,3 +136,11 @@
 高级模型：GPT5.4 Gemini3.1Pro
 
 免费额度: 注册送100平台余额，可调用十次GPT5.4 注册需要QQ邮箱
+
+### Sophnet (来自 https://github.com/Auunes 投稿)
+
+链接： [sophnet][https://www.sophnet.com/?code=TFWAWE]
+
+高级模型： GLM5.1 DeepseekV3Pro
+
+免费额度： 注册送100元信用额度，每日签到送 0.1M Token 注册需要手机号，注册后进入SpohClaw，左下角用户中心可以签到，与Claw对话要求输出当前Model配置文件得到APIKEY与URL，可在外网使用 (注册开通龙虾送20元，其中10元用于龙虾扣费，另外10元可用于API 存疑)
