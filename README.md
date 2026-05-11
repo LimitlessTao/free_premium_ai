@@ -27,14 +27,14 @@
 
 高级模型: claude-opus-4-7 
 
-免费额度：注册送20刀，限制CODEX/CLAUDECODE 平台调用
+免费额度与注册说明：注册送20刀，限制CODEX/CLAUDECODE 平台调用
 ### POIXE
 
 链接： [poixe](https://poixe.com/i/ocyymy)
 
 高级模型：gemini 3.1 pro  claude-4-6-sonnet
 
-免费额度： 具体请查看 [免费额度](https://poixe.com/products/free) 规则较复杂
+免费额度与注册说明： 具体请查看 [免费额度与注册说明](https://poixe.com/products/free) 规则较复杂
 
 ### freemodel.dev
 
@@ -42,7 +42,7 @@
 
 高级模型：GPT5.5 GPT5.4 
 
-免费额度: 注册送四周会员，每周 $71.67 GPT 额度 + 5刀余额 ，限制CODEX/CLAUDECODE 平台调用
+免费额度与注册说明: 注册送四周会员，每周 $71.67 GPT 额度 + 5刀余额 ，限制CODEX/CLAUDECODE 平台调用
 
 ### 可萌中转站
 
@@ -50,7 +50,7 @@
 
 高级模型： GPT5.4 Claude4.6 Opus
 
-免费额度：注册送约50次Claude opus 4.6 调用次数 
+免费额度与注册说明：注册送约50次Claude opus 4.6 调用次数 
 
 ### pollinations.ai
 
@@ -58,7 +58,7 @@
 
 高级模型：claude-sonnet-4-6 ，Moonshot Kimi K2.5， GLM-5 GPT5.4
 
-免费额度：每天送1pollinations ，GitHub登录，随用量增加
+免费额度与注册说明：每天送1pollinations ，GitHub登录，随用量增加
 
 ### AgentRouter
 
@@ -66,7 +66,7 @@
 
 高级模型：glm-5
 
-免费额度：Linuxdo账号或注册时长满1年的Github账号登录即领200美元余额，每日签到25美元
+免费额度与注册说明：Linuxdo账号或注册时长满1年的Github账号登录即领200美元余额，每日签到25美元
 
 ### Anyrouter
 
@@ -74,7 +74,7 @@
 
 高级模型：claude-opus-4-7 ，GPT 5.5
 
-免费额度：Linuxdo账号或EDU.CN邮箱账号登录即领100美元余额，每日签到25美元 限制CODEX/CLAUDECODE 平台调用
+免费额度与注册说明：Linuxdo账号或EDU.CN邮箱账号登录即领100美元余额，每日签到25美元 限制CODEX/CLAUDECODE 平台调用
 
 
 ### AihubMix
@@ -83,7 +83,7 @@
 
 高级模型：GLM-5
 
-免费额度：1M Token /day
+免费额度与注册说明：1M Token /day
 
 ### 魔搭/ModelScope
 
@@ -91,7 +91,7 @@
 
 高级模型：GLM-5.1 GLM-5
 
-免费额度： 手机号登陆，每天 200 次调用，需要实名认证 ，国际版可以邮箱登录，但需要绑定国际版阿里云账号
+免费额度与注册说明： 手机号登陆，每天 200 次调用，需要实名认证 ，国际版可以邮箱登录，但需要绑定国际版阿里云账号
 
 ### Gemini 商业版
 
@@ -99,7 +99,7 @@
 
 高级模型：Gemini 3 Pro，Gemini 3.1 Pro
 
-免费额度：邮箱注册即可免费使用30天，但模型存在降智问题，无API
+免费额度与注册说明：邮箱注册即可免费使用30天，但模型存在降智问题，无API
 
 ### Github Models
 
@@ -107,7 +107,7 @@
 
 高级模型：GPT-5
 
-免费额度：根据账号决定，每日限额
+免费额度与注册说明：根据账号决定，每日限额
 
 ### 微软 Copilot 商业版
 
@@ -115,7 +115,7 @@
 
 高级模型：GPT-5.4 GPT-5.5 
 
-免费额度： 无限量，需要E5/E3/高级版订阅， E5/E3账号可以通过 [教程](https://mp.weixin.qq.com/s/EnOZmo2MHRXrYpfPsG4e6g?poc_token=HGI8tWmjDFOTNqUhn6-sB-mNVfBSbR_nS3fTWuaE)  免费获取，无API
+免费额度与注册说明： 无限量，需要E5/E3/高级版订阅， E5/E3账号可以通过 [教程](https://mp.weixin.qq.com/s/EnOZmo2MHRXrYpfPsG4e6g?poc_token=HGI8tWmjDFOTNqUhn6-sB-mNVfBSbR_nS3fTWuaE)  免费获取，无API
 
 ### Codex 限时免费
 
@@ -127,7 +127,7 @@
 
 高级模型 : GLM-5.1 DeepseekV4Pro
 
-免费额度： 80rpm，需要绑定手机号
+免费额度与注册说明： 80rpm，需要绑定手机号
 
 ### 熊猫中转站
 
@@ -135,7 +135,7 @@
 
 高级模型：GPT5.4 Gemini3.1Pro
 
-免费额度: 注册送100平台余额，可调用十次GPT5.4 注册需要QQ邮箱
+免费额度与注册说明: 注册送100平台余额，可调用十次GPT5.4 注册需要QQ邮箱
 
 ### Sophnet (来自 https://github.com/Auunes 投稿)
 
@@ -143,10 +143,20 @@
 
 高级模型： GLM5.1 DeepseekV4Pro
 
-免费额度： 注册送100元信用额度，每日签到送 0.1M Token 注册需要手机号，注册后进入SpohClaw，左下角用户中心可以签到，与Claw对话要求输出当前Model配置文件得到APIKEY与URL，可在外网使用 (注册开通龙虾送20元，其中10元用于龙虾扣费，另外10元可用于API 存疑)
+免费额度与注册说明： 注册送100元信用额度，每日签到送 0.1M Token 注册需要手机号，注册后进入SpohClaw，左下角用户中心可以签到，与Claw对话要求输出当前Model配置文件得到APIKEY与URL，可在外网使用 (注册开通龙虾送20元，其中10元用于龙虾扣费，另外10元可用于API 存疑)
 
 ### zaiwen (来自 https://github.com/Auunes 投稿)
 
 链接： [zaiwen](https://chat.zaiwenai.com/?channel-code=695a2177ff8fe129b80fdee1)
+
 高级模型： GLM5.1 DeepseekV4Pro
-免费额度： 注册送99999点积分，仅限网页聊天
+
+免费额度与注册说明： 注册送99999点积分，仅限网页聊天
+
+### AirForce
+
+链接： [AirForce](https://api.airforce/signup?ref=S0QA8UXYtVQF073O)
+
+高级模型： GLM5
+ 
+免费额度与注册说明： 每天一千次请求，每分钟一次请求 ，需要谷歌或GitHub注册
