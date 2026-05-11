@@ -38,13 +38,13 @@
 
 ## 📌 平台列表 List
 
- ### 平台名
+### XAIO
 
- 链接： [平台名](注册链接URL)
+链接： [XAIO](https://dashboard.x-aio.com/zh/register?ref=7442bebbe10548dfb729)
 
- 高级模型: 满足收录标准的模型
+高级模型: GPT5.5 Claude opus 4.7 GLM5 DeepseekV4Pro
 
-免费额度与注册说明： 说明免费额度以及注册的限制(如果有)
+免费额度与注册说明： 注册送6元余额，注册需要手机号，可接码
 
 ### Token能量站
 
