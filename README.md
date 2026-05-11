@@ -7,9 +7,13 @@
 ## 📌 收录标准  Inclusion Criteria
 
  1.模型要求：可免费使用 [LiveBench](https://livebench.ai/) 中任一 Global Average 高于 **70分** 的模型，GPT/Claude/Gemini模型能力，无API的通过[提示词检测](https://linux.do/t/topic/1854373) 。有API的通过 [hvoy检测器](https://hvoy.ai/) 检测，受系统提示词和一些功能被限制（例如工具调用）导致智商降低的不影响收录，会注明这些缺陷，但不收录假模型，例如用GLM5伪装Claude模型，开源模型暂无有效测试方法，欢迎投稿提供方法。
+ 
  2. 免费额度要求：满足以下任一情况： A.注册给予较大额度，注册可以要求较严格，例如实名认证，手机号绑定等，注册要求严格收录时会在**免费额度与注册说明**中注明 B.每日签到给予免费额度/每周签到给予免费额度/长期有免费高级模型，注册可以要求较严格，例如AihubMix C. 注册给予较小额度，注册要求不严格，可意会不可言传。
+  
  3. 平台类型要求：仅主动收录付费平台，企业平台，不主动收录公益站，如果您是公益站站长，可以提issue投稿并注明您的公益站使用规则，不接受非站长以外的个人公益站投稿。
+   
  4. 调用要求：不限制协议规范，允许私有协议，我们会尽量编写对应的私有协议转Openai格式程序后再收录，接受仅限编程工具使用的平台
+
  > Feel free to use any model that scores over 70 on LiveBench. We offer recurring free credits and a big welcome bonus for new sign-ups. Our models are the real deal—no "watering" or model-swapping (though please note some system prompts and features might be restricted). We accept 2API channels as long as they perform as expected. All models are vetted via prompt checks and hvoy.ai.
 
 ## 📌 排序说明  Sorting Criteria
