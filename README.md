@@ -187,13 +187,6 @@
 
 免费额度与注册说明： 80rpm，需要绑定手机号
 
-### 熊猫中转站
-
-链接： [熊猫中转站](https://api520.pro/register?aff=I0D3)
-
-高级模型：GPT5.4 Gemini3.1Pro
-
-免费额度与注册说明: 注册送100平台余额，可调用十次GPT5.4 注册需要QQ邮箱
 
 ### Sophnet (来自 https://github.com/Auunes 投稿)
 
