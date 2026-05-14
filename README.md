@@ -47,13 +47,6 @@
 
 免费额度与注册说明: 注册送四周会员，每周 $71.67 GPT 额度 + 5刀余额 ，限制CODEX/CLAUDECODE 平台调用
 
-### cpass
-
-链接： [cpass](https://api.cpass.cc/register?aff=dsYU)
-
-高级模型: GPT5.5 claude-opus-4-7
-
-免费额度与注册说明： 注册送7刀余额，加群送10刀，邮箱即可注册
 
 ### gettoken
 
