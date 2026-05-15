@@ -47,6 +47,14 @@
 
 免费额度与注册说明：注册送20刀，微信登录，限制CODEX/CLAUDECODE 平台调用
 
+### v0 
+
+链接： [V0](https://v0.app/ref/DBOAIS))
+
+高级模型: Claude opus 4.7
+
+免费额度与注册说明： 需要从AFF链接注册，AFF链接似乎需要会员用户才可生成，如果本项目提供的失效了，欢迎各位PR提供自己的，新用户5刀额度，需要2API （https://github.com/fatkun/v0app2api）， 保真Claude ，2api
+
 ### ojbkapi
 
 链接： [ojbkapi](https://ojbkapi.com))
