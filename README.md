@@ -48,14 +48,6 @@
 免费额度与注册说明: 注册送四周会员，每周 $71.67 GPT 额度 + 5刀余额 ，限制CODEX/CLAUDECODE 平台调用
 
 
-### gettoken
-
-链接： [trail.gettoken.dev](https://trail.gettoken.dev)
-
-高级模型: GPT5.5 GPT5.4
-
-免费额度与注册说明： 注册送10刀，Google/Apple/微信/手机号注册 [官方调用指南](https://gettoken.dev/zh-CN/docs/base-url)
-
 ### code-relay
 
 链接： [code-relay](https://api.code-relay.com/register?aff=q4AU)
