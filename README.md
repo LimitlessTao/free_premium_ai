@@ -39,6 +39,23 @@
 
 ## 📌 平台列表 List
 
+### code-relay
+
+链接： [code-relay](https://api.code-relay.com/register?aff=q4AU)
+
+高级模型: claude-opus-4-7 
+
+免费额度与注册说明：注册送20刀，微信登录，限制CODEX/CLAUDECODE 平台调用
+
+### ojbkapi
+
+链接： [ojbkapi](https://ojbkapi.com))
+
+高级模型: GPT5.5 GPT5.4
+
+免费额度与注册说明： 注册送5刀，限制 @qq.com、@gmail.com、@163.com、@foxmail.com 邮箱
+
+
 ### freemodel.dev
 
 链接：[freemodel.dev](https://freemodel.dev/invite/FRE-010fbf71)
@@ -48,13 +65,7 @@
 免费额度与注册说明: 注册送四周会员，每周 $71.67 GPT 额度 + 5刀余额 ，限制CODEX/CLAUDECODE 平台调用
 
 
-### code-relay
 
-链接： [code-relay](https://api.code-relay.com/register?aff=q4AU)
-
-高级模型: claude-opus-4-7 
-
-免费额度与注册说明：注册送20刀，微信登录，限制CODEX/CLAUDECODE 平台调用
 
 ### Token能量站
 
