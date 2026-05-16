@@ -41,11 +41,11 @@
 
 ### code-relay
 
-链接： [code-relay](https://api.code-relay.com/register?aff=q4AU)
+链接： [code-relay](https://api.code-relay.com/register?aff=LrCD)
 
 高级模型: claude-opus-4-7 
 
-免费额度与注册说明：注册送50刀，微信登录，限制CODEX/CLAUDECODE 平台调用
+免费额度与注册说明：注册送10刀，微信/Linux.do登录，限制CODEX/CLAUDECODE 平台调用
 
 ### v0 
 
