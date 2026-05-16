@@ -45,11 +45,11 @@
 
 高级模型: claude-opus-4-7 
 
-免费额度与注册说明：注册送20刀，微信登录，限制CODEX/CLAUDECODE 平台调用
+免费额度与注册说明：注册送50刀，微信登录，限制CODEX/CLAUDECODE 平台调用
 
 ### v0 
 
-链接： [V0](https://v0.app/ref/DBOAIS))
+链接： [V0](https://v0.app/ref/DBOAIS)
 
 高级模型: Claude opus 4.7
 
@@ -57,7 +57,7 @@
 
 ### ojbkapi
 
-链接： [ojbkapi](https://ojbkapi.com))
+链接： [ojbkapi](https://ojbkapi.com)
 
 高级模型: GPT5.5 GPT5.4
 
@@ -71,9 +71,6 @@
 高级模型：GPT5.5 GPT5.4 
 
 免费额度与注册说明: 注册送四周会员，每周 $71.67 GPT 额度 + 5刀余额 ，限制CODEX/CLAUDECODE 平台调用
-
-
-
 
 ### Token能量站
 
@@ -106,6 +103,14 @@
 高级模型: GPT5.5 Claude opus 4.7 GLM5 DeepseekV4Pro
 
 免费额度与注册说明： 注册送6元余额，注册需要手机号，可接码
+
+### 七牛云
+
+链接： [七牛云](https://s.qiniu.com/eAJba2)
+
+高级模型: GPT5.5 Claude opus 4.7 GLM5 DeepseekV4Pro
+
+免费额度与注册说明： 注册送300万Token，计费非标准模式，建议仅用于对话备用
 
 ### POIXE
 
