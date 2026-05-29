@@ -39,6 +39,14 @@
 
 ## 📌 平台列表 List
 
+### vsllm
+
+链接： [vsllm](https://vsllm.com/register?aff=3eFX)
+
+高级模型: gpt-5.5，claude-opus-4-7
+
+免费额度与注册说明： 注册后到 [个人中心](https://vsllm.com/console/personal) 每日签到可得 500000 配额，抽卡随机获得额度，开源项目可得额度
+
 ### sharedchat
 
 链接： [sharedchat](https://new.sharedchat.cc/list/#/register)
