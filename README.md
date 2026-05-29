@@ -39,6 +39,14 @@
 
 ## 📌 平台列表 List
 
+### UU6
+
+链接： [UU6](https://api.uu6.top/register?aff=CBIt)
+
+高级模型: GPT5.5 (claude系列疑似掺水，不计入)
+
+免费额度与注册说明： 注册送10刀，签到送2刀
+
 ### vsllm
 
 链接： [vsllm](https://vsllm.com/register?aff=3eFX)
