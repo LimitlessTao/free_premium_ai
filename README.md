@@ -39,6 +39,14 @@
 
 ## 📌 平台列表 List
 
+### sharedchat
+
+链接： [sharedchat](https://new.sharedchat.cc/list/#/register)
+
+高级模型: gpt-5.5
+
+免费额度与注册说明： 注册送100刀，限QQ邮箱
+
 ### code-relay
 
 链接： [code-relay](https://api.code-relay.com/register?aff=LrCD)
