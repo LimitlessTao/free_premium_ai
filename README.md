@@ -81,14 +81,6 @@
 免费额度与注册说明： 注册送5刀，限制 @qq.com、@gmail.com、@163.com、@foxmail.com 邮箱
 
 
-### freemodel.dev
-
-链接：[freemodel.dev](https://freemodel.dev/invite/FRE-010fbf71)
-
-高级模型：GPT5.5 GPT5.4 
-
-免费额度与注册说明: 注册送四周会员，每周 $71.67 GPT 额度 + 5刀余额 ，限制CODEX/CLAUDECODE 平台调用
-
 ### Token能量站
 
 链接： [Token能量站](https://factory.pub/register?aff=99iP)
