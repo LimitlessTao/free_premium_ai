@@ -40,6 +40,14 @@
 ## 📌 平台列表 List
 
 
+### EvoMap
+
+链接： [evomap](https://evomap.ai/zh/api-grant?invite=6PACG8RF)
+
+高级模型: claude-opus-4-6 gpt-5.5 glm5.1
+
+免费额度与注册说明： 使用GitHub登录，根据GitHub仓库star数量领取余额，大于1star 可领7刀 ＞200 star 可以领20刀 大于1000 star 可以领100刀
+
 
 ### vsllm
 
