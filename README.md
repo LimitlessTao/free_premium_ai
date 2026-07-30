@@ -40,20 +40,20 @@
 ## 📌 平台列表 List
 
 
-### EvoMap
+### 基元律动
 
-链接： [evomap](https://evomap.ai/zh/api-grant?invite=6PACG8RF)
+链接： [注册链接](https://tokenrhythm.studio/i/rf_tr_q_OtzT9K2rv5AkDatMntqt32)
 
-高级模型: claude-opus-4-6 gpt-5.5 glm5.1
+高级模型: glm5.2
 
-免费额度与注册说明： 使用GitHub登录，根据GitHub仓库star数量领取余额，大于1star 可领7刀 ＞200 star 可以领20刀 大于1000 star 可以领100刀
+免费额度与注册说明： 注册就送68元
 
 
 ### vsllm
 
 链接： [vsllm](https://vsllm.com/register?aff=3eFX)
 
-高级模型: gpt-5.5，claude-opus-4-7
+高级模型: gpt-5.6，claude-opus-4-8
 
 免费额度与注册说明： 注册后到 [个人中心](https://vsllm.com/console/personal) 每日签到可得 500000 配额，抽卡随机获得额度，开源项目可得额度
 
@@ -61,7 +61,7 @@
 
 链接： [sharedchat](https://new.sharedchat.cc/list/#/register)
 
-高级模型: gpt-5.5
+高级模型: gpt-5.6
 
 免费额度与注册说明： 注册送100刀，限QQ邮箱
 
@@ -70,7 +70,7 @@
 
 链接： [V0](https://v0.app/ref/DBOAIS)
 
-高级模型: Claude opus 4.7
+高级模型: Claude opus 4.8
 
 免费额度与注册说明： 需要从AFF链接注册，AFF链接似乎需要会员用户才可生成，如果本项目提供的失效了，欢迎各位PR提供自己的，新用户5刀额度，需要2API （https://github.com/fatkun/v0app2api）， 保真Claude ，2api
 
@@ -87,7 +87,7 @@
 
 链接： [Token能量站](https://factory.pub/register?aff=99iP)
 
-高级模型: GPT5.5
+高级模型: GPT5.6
 
 免费额度与注册说明： 注册送2.5刀 每日签到随机0.1刀以上 注册限制邮箱
 
@@ -107,20 +107,11 @@
 
 免费额度与注册说明： 注册送7刀 注册限制邮箱 @qq.com、@gmail.com、@163.com、@foxmail.com、@edu.cn
 
-### XAIO
-
-链接： [XAIO](https://dashboard.x-aio.com/zh/register?ref=7442bebbe10548dfb729)
-
-高级模型: GPT5.5 Claude opus 4.7 GLM5 DeepseekV4Pro
-
-免费额度与注册说明： 注册送6元余额，注册需要手机号，可接码
-
 ### 七牛云
 
 链接： [七牛云](https://s.qiniu.com/eAJba2)
 
-高级模型: GPT5.5 Claude opus 4.7 GLM5 DeepseekV4Pro
-
+高级模型: GPT5.6 Claude opus 4.8 GLM5.2
 免费额度与注册说明： 注册送300万Token，计费非标准模式，建议仅用于对话备用
 
 ### POIXE
@@ -135,7 +126,7 @@
 
 链接：[pollinations.ai](https://enter.pollinations.ai/)
 
-高级模型：claude-sonnet-4-6 ，Moonshot Kimi K2.5， GLM-5 GPT5.4
+高级模型： GLM-5.2 GPT5.6
 
 免费额度与注册说明：每天送1pollinations ，GitHub登录，随用量增加
 
@@ -143,7 +134,7 @@
 
 链接:  [AgentRouter](https://agentrouter.org/register?aff=z4u0)
 
-高级模型：glm-5
+高级模型：glm-5.2
 
 免费额度与注册说明：Linuxdo账号或注册时长满1年的Github账号登录即领200美元余额，每日签到25美元
 
@@ -151,7 +142,7 @@
 
 链接:  [Anyrouter](https://anyrouter.top/register?aff=Ae0q)
 
-高级模型：claude-opus-4-7 ，GPT 5.5 使用人数较多，资源较为紧张
+高级模型：claude-opus-4-8 ，GPT 5.6 使用人数较多，资源较为紧张
 
 免费额度与注册说明：Linuxdo账号或EDU.CN邮箱账号登录即领100美元余额，每日签到25美元 限制CODEX/CLAUDECODE 平台调用
 
@@ -160,7 +151,7 @@
 
 链接：[aihubmix](https://aihubmix.com/?aff=DwLF)
 
-高级模型：GLM-5
+高级模型：GLM-5.2
 
 免费额度与注册说明：1M Token /day
 
@@ -168,7 +159,7 @@
 
 链接： [魔搭中国](https://modelscope.cn) [魔搭国际](https://modelscope.ai)
 
-高级模型：GLM-5.1 GLM-5
+高级模型：GLM-5.2
 
 免费额度与注册说明： 手机号登陆，每天 200 次调用，需要实名认证 ，国际版可以邮箱登录，但需要绑定国际版阿里云账号
 
@@ -176,7 +167,7 @@
 
 链接：[商业版 Gemini](https://business.gemini.google/)
 
-高级模型：Gemini 3 Pro，Gemini 3.1 Pro
+高级模型：Gemini 3.1 Pro
 
 免费额度与注册说明：邮箱注册即可免费使用30天，但模型存在降智问题，无API
 
@@ -204,7 +195,7 @@
 
 链接： [`英伟达`](https://build.nvidia.com/%E2%80%8B)
 
-高级模型 : GLM-5.1 DeepseekV4Pro
+高级模型 : GLM-5.2 DeepseekV4Pro
 
 免费额度与注册说明： 80rpm，需要绑定手机号
 
@@ -213,7 +204,7 @@
 
 链接： [sophnet](https://www.sophnet.com/?code=TFWAWE)
 
-高级模型： GLM5.1 DeepseekV4Pro
+高级模型： GLM5.2 DeepseekV4Pro
 
 免费额度与注册说明： 注册送100元信用额度，每日签到送 0.1M Token 注册需要手机号，注册后进入SpohClaw，左下角用户中心可以签到，与Claw对话要求输出当前Model配置文件得到APIKEY与URL，可在外网使用 (注册开通龙虾送20元，其中10元用于龙虾扣费，另外10元可用于API 存疑)
 
@@ -237,7 +228,7 @@
 
 链接： [网易有道云](https://ai.youdao.com/new/)
 
-高级模型： GLM5.1 DeepseekV4Pro
+高级模型： GLM5.2 DeepseekV4Pro
 
 免费额度与注册说明： 注册送10元余额，填写问券（注册后弹出的企业微信好友，添加后填写问券）得50元，实名认证得40元（非必须） 。
 
