@@ -40,6 +40,31 @@
 ## 📌 平台列表 List
 
 
+### AgentRouter
+
+链接:  [AgentRouter](https://agentrouter.org/register?aff=Uap9)
+
+高级模型：gpt5.6 Claude opus 5
+
+免费额度与注册说明：Linuxdo账号或注册时长满1年的Github账号登录即领50美元余额，每日签到25美元
+
+### Anyrouter
+
+链接:  [Anyrouter](https://anyrouter.top/register?aff=Ae0q)
+
+高级模型：claude-opus-4-8 ，GPT 5.6 使用人数较多，资源较为紧张
+
+免费额度与注册说明：Linuxdo账号或EDU.CN邮箱账号登录即领100美元余额，每日签到25美元 限制CODEX/CLAUDECODE 平台调用
+
+
+
+### 七牛云
+
+链接： [七牛云](https://s.qiniu.com/eAJba2)
+
+高级模型: GPT5.6 Claude opus 4.8 GLM5.2
+免费额度与注册说明： 注册送300万Token，计费非标准模式，建议仅用于对话备用
+
 ### 基元律动
 
 链接： [注册链接](https://tokenrhythm.studio/i/rf_tr_q_OtzT9K2rv5AkDatMntqt32)
@@ -74,14 +99,6 @@
 
 免费额度与注册说明： 需要从AFF链接注册，AFF链接似乎需要会员用户才可生成，如果本项目提供的失效了，欢迎各位PR提供自己的，新用户5刀额度，需要2API （https://github.com/fatkun/v0app2api）， 保真Claude ，2api
 
-### ojbkapi
-
-链接： [ojbkapi](https://ojbkapi.com)
-
-高级模型: GPT5.5 GPT5.4
-
-免费额度与注册说明： 注册送5刀，限制 @qq.com、@gmail.com、@163.com、@foxmail.com 邮箱
-
 
 ### Token能量站
 
@@ -99,20 +116,7 @@
 
 免费额度与注册说明：注册送约50次Claude opus 4.6 调用次数 
 
-### unity2.ai
 
-链接： [unity2.ai](https://unity2.ai/register?ref=GYagOZRL)
-
-高级模型: GPT5.5
-
-免费额度与注册说明： 注册送7刀 注册限制邮箱 @qq.com、@gmail.com、@163.com、@foxmail.com、@edu.cn
-
-### 七牛云
-
-链接： [七牛云](https://s.qiniu.com/eAJba2)
-
-高级模型: GPT5.6 Claude opus 4.8 GLM5.2
-免费额度与注册说明： 注册送300万Token，计费非标准模式，建议仅用于对话备用
 
 ### POIXE
 
@@ -129,23 +133,6 @@
 高级模型： GLM-5.2 GPT5.6
 
 免费额度与注册说明：每天送1pollinations ，GitHub登录，随用量增加
-
-### AgentRouter
-
-链接:  [AgentRouter](https://agentrouter.org/register?aff=z4u0)
-
-高级模型：glm-5.2
-
-免费额度与注册说明：Linuxdo账号或注册时长满1年的Github账号登录即领200美元余额，每日签到25美元
-
-### Anyrouter
-
-链接:  [Anyrouter](https://anyrouter.top/register?aff=Ae0q)
-
-高级模型：claude-opus-4-8 ，GPT 5.6 使用人数较多，资源较为紧张
-
-免费额度与注册说明：Linuxdo账号或EDU.CN邮箱账号登录即领100美元余额，每日签到25美元 限制CODEX/CLAUDECODE 平台调用
-
 
 ### AihubMix
 
