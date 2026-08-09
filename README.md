@@ -170,13 +170,13 @@
 
 链接：[m365.cloud.microsoft](https://m365.cloud.microsoft/)
 
-高级模型：GPT-5.4 GPT-5.5 
+高级模型：GPT-5.6
 
 免费额度与注册说明： 无限量，需要E5/E3/高级版订阅， E5/E3账号可以通过 [教程](https://mp.weixin.qq.com/s/EnOZmo2MHRXrYpfPsG4e6g?poc_token=HGI8tWmjDFOTNqUhn6-sB-mNVfBSbR_nS3fTWuaE)  免费获取，无API
 
 ### Codex 限时免费
 
-目前所有GPT用户都可以免费使用Codex的GPT-5.2模型
+目前所有GPT用户都可以免费使用Codex的GPT-5.6 luna 和terra 模型
 
 ### 英伟达Build
 
@@ -199,7 +199,7 @@
 
 链接： [zaiwen](https://chat.zaiwenai.com/?channel-code=695a2177ff8fe129b80fdee1)
 
-高级模型： GLM5.1 DeepseekV4Pro
+高级模型： GLM5.2
 
 免费额度与注册说明： 注册送99999点积分，仅限网页聊天
 
@@ -207,7 +207,7 @@
 
 链接： [AirForce](https://api.airforce/signup?ref=S0QA8UXYtVQF073O)
 
-高级模型： GLM5
+高级模型： GLM5.2
  
 免费额度与注册说明： 每天一千次请求，每分钟一次请求 ，需要谷歌或GitHub注册
 
@@ -215,7 +215,14 @@
 
 链接： [网易有道云](https://ai.youdao.com/new/)
 
-高级模型： GLM5.2 DeepseekV4Pro
+高级模型： GLM5.2 
 
 免费额度与注册说明： 注册送10元余额，填写问券（注册后弹出的企业微信好友，添加后填写问券）得50元，实名认证得40元（非必须） 。
 
+### Monkeycode
+
+链接： [MonkeyCode](https://monkeycode-ai.com/?ic=019fb694-e1ca-726e-a8dc-00d5e22b60ad)
+
+模型: GLM5.2
+
+免费额度与注册说明：每日3000万Token，用完隔日刷新；每天签到送100积分，当每日Token额度用完时可以使用积分继续调用模型,注册需要手机号,仅限平台内使用 无api
