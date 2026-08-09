@@ -42,7 +42,7 @@
 
 ### AgentRouter
 
-链接:  [AgentRouter](https://agentrouter.org/register?aff=Uap9)
+链接:  [AgentRouter](https://agentrouter.org/register?aff=P9gT)
 
 高级模型：gpt5.6 Claude opus 5
 
@@ -50,7 +50,7 @@
 
 ### Anyrouter
 
-链接:  [Anyrouter](https://anyrouter.top/register?aff=Ae0q)
+链接:  [Anyrouter](https://anyrouter.top/register?aff=2fQk)
 
 高级模型：claude-opus-4-8 ，GPT 5.6 使用人数较多，资源较为紧张
 
