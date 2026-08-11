@@ -126,13 +126,7 @@
 
 免费额度与注册说明： 具体请查看 [免费额度与注册说明](https://poixe.com/products/free) 规则较复杂
 
-### pollinations.ai
 
-链接：[pollinations.ai](https://enter.pollinations.ai/)
-
-高级模型： GLM-5.2 GPT5.6
-
-免费额度与注册说明：每天送1pollinations ，GitHub登录，随用量增加
 
 ### AihubMix
 
