@@ -73,6 +73,14 @@
 
 免费额度与注册说明： 注册获得16元余额，需要手机号与实名认证
 
+### runninghub - 海马云
+
+链接: [runninghub](https://www.runninghub.cn?inviteCode=ixsgqxpm)
+
+高级模型: GLM5.2 Qwen3.8 Max
+
+免费额度与注册说明: 注册后送500积分，积分用途未知，[vibex](https://vibex.runninghub.cn/) 可以免费使用GLM5.2 Qwen3.8 Max 网页对话 (Agent模式) 目前无限量
+
 ### Modal
 
 链接： [Modal](https://modal.com/)
