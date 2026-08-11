@@ -39,6 +39,13 @@
 
 ## 📌 平台列表 List
 
+### Hypercharm
+
+链接:  [Hypercharm](https://hyper.charm.land/)
+
+高级模型：GLM5.2 Kimi K3
+
+免费额度与注册说明： 每月赠送5美元，推荐gmail登录，其他邮箱容易被认为恶意用户封禁账号
 
 ### AgentRouter
 
