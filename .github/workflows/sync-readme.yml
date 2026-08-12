@@ -1,0 +1,75 @@
+name: README 同步
+
+# 真人改动 platforms.json（手改或网页合并 PR）时重新生成 README 平台区块，
+# 与审批流水线共同保证「README 始终由 JSON 派生」这一不变量。
+#
+# 不会与「投稿审批」循环：该流水线用内置 GITHUB_TOKEN 提交，GitHub 规定
+# 该 token 的 push 不触发任何工作流，因此本流程只会被真人 push 触发，
+# 无需任何 actor 判断，也永远不会自我循环。
+on:
+  push:
+    branches: [main]
+    paths:
+      # 平台数据、生成逻辑、README 本体任一变动都重跑一遍，
+      # 幂等保护保证无差异时不会产生空提交
+      - data/platforms.json
+      - scripts/build-readme.js
+      - scripts/platform-data.js
+      - README.md
+  # 同步失败或标记被意外改动后手动补跑
+  workflow_dispatch:
+
+# 需要把 README 提交回 main
+permissions:
+  contents: write
+
+# 同步提交不能丢：不取消进行中的运行，排队执行
+concurrency:
+  group: readme-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 手抖改坏 JSON 时在此终止：build.js 的数据校验拦截脏数据，
+      # 不会基于坏数据生成 README，更不会污染 main
+      - run: node tests/run.js
+      - run: node build.js
+      - run: node scripts/build-readme.js
+
+      - name: 提交 README（无变化则跳过）
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "README 已处于同步状态，无需提交"
+            exit 0
+          fi
+          git commit -m "docs: 同步 README 平台列表（platforms.json 变动）"
+
+          # 与审批流水线并发时 push 会被拒。README 是纯派生产物，
+          # 不值得解冲突：拉取远端硬重置，以最新数据重新生成再推。
+          for attempt in 1 2; do
+            if git push; then
+              exit 0
+            fi
+            git fetch origin main
+            git reset --hard FETCH_HEAD
+            node scripts/build-readme.js
+            git add README.md
+            if git diff --cached --quiet; then
+              echo "最新远端已同步，无需再提交"
+              exit 0
+            fi
+            git commit -m "docs: 同步 README 平台列表（platforms.json 变动）"
+          done
+
+          git push

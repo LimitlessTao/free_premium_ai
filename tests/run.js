@@ -12,6 +12,7 @@ import "./render.test.js";
 import "./issue-payload.test.js";
 import "./submit.test.js";
 import "./build-injection.test.js";
+import "./readme-sync.test.js";
 import { run } from "./harness.js";
 
 await run();
