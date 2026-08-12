@@ -1,16 +1,9 @@
 name: GitHub Pages 部署
 
-# 镜像托管：主站仍在 Cloudflare Pages，此处做零成本备用入口。
-# 手动提交模式后站点已是纯静态，GitHub Pages 可完整承载。
+# 镜像托管仅为备份：不随 push 或审批自动更新，仅在需要刷新时
+# 于 Actions 页手动触发（Run workflow）。主站在 Cloudflare Pages。
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
-  # 审批机器人的提交来自 GITHUB_TOKEN，其 push 事件不会触发本工作流；
-  # workflow_run 是递归防护的例外，审批完成后由此接力部署
-  workflow_run:
-    workflows: ["投稿审批"]
-    types: [completed]
 
 permissions:
   contents: read
@@ -24,8 +17,6 @@ concurrency:
 
 jobs:
   build:
-    # workflow_run 触发时仅在审批成功入库后部署，失败审批不改变内容
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
