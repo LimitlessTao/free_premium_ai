@@ -1,0 +1,51 @@
+name: GitHub Pages 部署
+
+# 镜像托管：主站仍在 Cloudflare Pages，此处做零成本备用入口。
+# 手动提交模式后站点已是纯静态，GitHub Pages 可完整承载。
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+#  deployments 互相覆盖无意义，取消进行中的旧部署
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # repo_url 已由数据文件指向本仓库，无需 REPO_URL 覆盖；
+      # SITE_URL 走仓库 Actions Variable，未配置时回退数据文件的 site_url
+      - name: 构建静态页
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: node build.js
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
