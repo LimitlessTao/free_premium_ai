@@ -1,8 +1,8 @@
 {
-  "site_title": "free premium ai",
+  "site_title": "free premium ai - 免费模型收录",
   "site_logo_url": "https://avatars.githubusercontent.com/u/251143027?v=4",
   "site_sub_title": "免费用上最强的 AI 模型",
-  "site_description": "收录能免费使用、能力较强的 AI 平台。请保持合理预期：免费、稳定、高性能是不可兼得的「不可能三角」。本项目不推荐任何平台，如平台或活动失效，欢迎投稿反馈。",
+  "site_description": "收录能免费使用、能力较强的 AI 平台。请保持合理预期：免费、稳定、高性能是不可兼得的「不可能三角」。如信息失效，欢迎投稿反馈。",
   "repo_url": "https://github.com/swufe-xiongmin/free_premium_ai",
   "platforms": [
     {
@@ -12,7 +12,7 @@
       "note": "每月赠送 5 美元，推荐 Gmail 登录",
       "description": "每月赠送5美元，推荐gmail登录，其他邮箱容易被认为恶意用户封禁账号",
       "free_premium_model": [
-        "glm5.2",
+        "glm-5.2",
         "kimi-k3"
       ],
       "status_bool": true,
@@ -26,7 +26,7 @@
       "note": "Linuxdo 或满 1 年 GitHub 账号领 50 美元，每日签到 25 美元",
       "description": "Linuxdo账号或注册时长满1年的Github账号登录即领50美元余额，每日签到25美元",
       "free_premium_model": [
-        "gpt5.6",
+        "gpt-5.6",
         "claude-opus-5"
       ],
       "status_bool": true,
@@ -54,7 +54,7 @@
       "note": "注册送 16 元余额，需手机号与实名认证",
       "description": "注册获得16元余额，需要手机号与实名认证",
       "free_premium_model": [
-        "glm5.2",
+        "glm-5.2",
         "kimi-k3"
       ],
       "status_bool": true,
@@ -79,11 +79,11 @@
       "title": "七牛云",
       "url": "https://s.qiniu.com/eAJba2",
       "note": "注册送 300 万 Token，计费非标准模式",
-      "description": "注册送300万Token，计费非标准模式，建议仅用于对话备用",
+      "description": "注册送300万Token，计费非标准模式，建议仅用于对话备用，海外模型通过 https://api.modelink.ai 端点调用",
       "free_premium_model": [
-        "gpt5.6",
+        "gpt-5.6",
         "claude-opus-4.8",
-        "glm5.2"
+        "glm-5.2"
       ],
       "status_bool": true,
       "poster_githubname": "",
@@ -96,7 +96,7 @@
       "note": "注册即送 68 元",
       "description": "",
       "free_premium_model": [
-        "glm5.2"
+        "glm-5.2"
       ],
       "status_bool": true,
       "poster_githubname": "",
@@ -149,7 +149,7 @@
       "note": "注册送 2.5 刀，每日签到随机 0.1 刀以上",
       "description": "注册送2.5刀，每日签到随机0.1刀以上，注册限制邮箱",
       "free_premium_model": [
-        "gpt5.6"
+        "gpt-5.6"
       ],
       "status_bool": true,
       "poster_githubname": "",
@@ -159,11 +159,10 @@
       "id": 12,
       "title": "可萌中转站",
       "url": "https://api456.me/register?aff=H0IO",
-      "note": "注册送约 50 次 Claude Opus 4.6 调用",
-      "description": "注册送约50次Claude opus 4.6 调用次数",
+      "note": "注册送约1.5余额，但每日可签到",
+      "description": "注册送约1.5余额，但每日可签到",
       "free_premium_model": [
-        "gpt5.4",
-        "claude4.6-opus"
+        "glm-5.2"
       ],
       "status_bool": true,
       "poster_githubname": "",
@@ -176,8 +175,8 @@
       "note": "免费规则较复杂，详见官方说明页",
       "description": "规则较复杂，具体请查看官方免费额度与注册说明：https://poixe.com/products/free",
       "free_premium_model": [
-        "gemini-3.1-pro",
-        "claude-4-6-sonnet"
+        "gpt-5.6",
+        "claude-opus-5"
       ],
       "status_bool": true,
       "poster_githubname": "",
@@ -283,8 +282,7 @@
       "note": "注册送 100 元信用额度，每日签到送 0.1M Token",
       "description": "注册送100元信用额度，每日签到送 0.1M Token。注册需要手机号，注册后进入SophClaw，左下角用户中心可以签到，与Claw对话要求输出当前Model配置文件得到APIKEY与URL，可在外网使用（注册开通龙虾送20元，其中10元用于龙虾扣费，另外10元可用于API 存疑）",
       "free_premium_model": [
-        "glm5.2",
-        "deepseekv4pro"
+        "glm-5.2"
       ],
       "status_bool": true,
       "poster_githubname": "Auunes",
@@ -297,7 +295,7 @@
       "note": "注册送 99999 积分，仅限网页聊天",
       "description": "注册送99999点积分，仅限网页聊天",
       "free_premium_model": [
-        "glm5.2"
+        "glm-5.2"
       ],
       "status_bool": true,
       "poster_githubname": "Auunes",
@@ -310,7 +308,7 @@
       "note": "每天 1000 次请求，每分钟 1 次",
       "description": "每天一千次请求，每分钟一次请求，需要谷歌或GitHub注册",
       "free_premium_model": [
-        "glm5.2"
+        "glm-5.2"
       ],
       "status_bool": true,
       "poster_githubname": "",
@@ -323,7 +321,7 @@
       "note": "注册送 10 元，填问卷再得 50 元",
       "description": "注册送10元余额，填写问卷（注册后弹出的企业微信好友，添加后填写问卷）得50元，实名认证得40元（非必须）",
       "free_premium_model": [
-        "glm5.2"
+        "glm-5.2"
       ],
       "status_bool": true,
       "poster_githubname": "",
@@ -336,7 +334,7 @@
       "note": "每日 3000 万 Token，签到送积分续用",
       "description": "每日3000万Token，用完隔日刷新；每天签到送100积分，当每日Token额度用完时可以使用积分继续调用模型。注册需要手机号，仅限平台内使用，无api",
       "free_premium_model": [
-        "glm5.2"
+        "glm-5.2"
       ],
       "status_bool": true,
       "poster_githubname": "",
@@ -349,7 +347,8 @@
       "note": "注册后送 500 积分；vibex 网页对话（Agent 模式）目前无限量",
       "description": "注册后送 500 积分，积分用途未明。访问 https://vibex.runninghub.cn/ 可免费使用 GLM5.2 与 Qwen3.8 Max 网页对话（Agent 模式），目前无限量。",
       "free_premium_model": [
-        "glm5.2-qwen3.8-max"
+        "glm-5.2",
+        "qwen-3.8-max"
       ],
       "status_bool": true,
       "poster_githubname": "",
