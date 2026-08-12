@@ -1,10 +1,9 @@
-# 🚀 free_premium_ai
+# 🚀 [free_premium_ai](https://free-premium-ai.pages.dev)
 
 收录可以免费使用能力较强的 AI 合集。我们尽量筛选较为稳定的平台，但请保持合理预期：**免费、稳定、高性能** 是不可兼得的“不可能三角”。平台赠送免费额度的目的一般为支持开发者使用与测试，以及提供试用吸引客户，请意识到 ”免费注定会付出更多的时间成本，“ 追求稳定性或者在试用后觉得平台不错，少量多次充值使用（建议根据您的用量，仅充值三天可以用完的额度，大平台可以适量增加），任何平台都没有绝对的稳定性，本项目不推荐任何平台， 如平台或活动失效未能及时更新，欢迎PR 和提issues 。
 
-> A curated collection of powerful AI tools available for free. While we strive to select stable platforms, please maintain realistic expectations: "Free, Stable, and High-Performance" form an "Impossible Triangle" that cannot coexist. Platforms typically provide free credits to support developer testing or to attract customers through trials. Please be aware that "free services often come with a higher cost of time." If you prioritize stability or find a platform satisfactory after a trial, we recommend small, frequent top-ups (e.g., only top up what you can use within three days; major platforms can be adjusted accordingly). No platform offers absolute stability, and this project does not endorse any specific platform. If a platform or promotion expires and hasn't been updated, feel free to submit a PR or open an issue.
 
-**🌐 推荐访问网站版**：**[free-premium-ai.pages.dev](https://free-premium-ai.pages.dev/)**——卡片式浏览、全文搜索、深浅色模式，比读下面这份列表舒服得多；这里更适合快速扫一眼找平台，而网站适合慢慢挑。内容与本文档完全同步。
+**🌐 推荐访问网站版**：**[free-premium-ai.pages.dev](https://free-premium-ai.pages.dev)**——卡片式浏览、全文搜索、深浅色模式，内容与本文档完全同步,相对于本README更直观。
 
 ## 📌 收录标准  Inclusion Criteria
 
@@ -16,13 +15,11 @@
 
  4. 调用要求：不限制协议规范，允许私有协议，我们会尽量编写对应的私有协议转Openai格式程序后再收录，接受仅限编程工具使用的平台
 
- > Feel free to use any model that scores over 70 on LiveBench.(editing) We offer recurring free credits and a big welcome bonus for new sign-ups. Our models are the real deal—no "watering" or model-swapping (though please note some system prompts and features might be restricted). We accept 2API channels as long as they perform as expected. All models are vetted via prompt checks and hvoy.ai.
+
 
 ## 📌 排序说明  Sorting Criteria
 
- 易失效且有顶级模型（LiveBench前十名）的渠道放在最前面，无顶级模型的发现时间排名，如有失效，欢迎pr与issue反馈！
-
- > PRs and submissions are welcome. AFF links are allowed. If you are the first to discover and submit a platform, your AFF link will be kept permanently. Thank you for your contribution!
+ 易失效的渠道放在最前面，其他按照收录时间排名，如有失效，欢迎pr与issue反馈！
 
 ## 📌 PR/投稿/反馈说明  About PR
 
@@ -41,8 +38,6 @@
 
 免费额度与注册说明： 说明免费额度以及注册的限制(如果有)
  ```
-
- >We welcome your PRs! We allow affiliate links—if you're the first to find and submit a platform, we'll keep your AFF link active for good. Appreciate your help!
 
 ## 📌 平台列表 List
 
