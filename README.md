@@ -262,4 +262,14 @@
 
 免费额度与注册说明： 注册后送 500 积分，积分用途未明。访问 https://vibex.runninghub.cn/ 可免费使用 GLM5.2 与 Qwen3.8 Max 网页对话（Agent 模式），目前无限量。
 
+### QwenAi
+
+链接： [QwenAi](https://chat.qwen.ai)
+
+高级模型: qwen-3.8-max
+
+免费额度与注册说明： 无api，工具只有搜索与代码解释器，无使用限制，为官方渠道
+
+投稿人： [rthdfd](https://github.com/rthdfd)
+
 <!-- platforms:end -->

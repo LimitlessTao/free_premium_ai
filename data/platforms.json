@@ -354,6 +354,19 @@
       "status_bool": true,
       "poster_githubname": "",
       "updatetime": "2026-08-11"
+    },
+    {
+      "id": 27,
+      "title": "QwenAi",
+      "url": "https://chat.qwen.ai",
+      "note": "无api，工具只有搜索与代码解释器，无使用限制，为官方渠道",
+      "description": "无api，工具只有搜索与代码解释器，无使用限制，为官方渠道",
+      "free_premium_model": [
+        "qwen-3.8-max"
+      ],
+      "status_bool": true,
+      "poster_githubname": "rthdfd",
+      "updatetime": "2026-08-12"
     }
   ]
 }
