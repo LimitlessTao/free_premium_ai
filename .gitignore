@@ -1,0 +1,8 @@
+# Windows hook 在 Linux 环境下误生成的空文件，非项目内容
+nul
+
+# 构建产物由 Cloudflare Pages 在部署时生成，不进版本控制
+dist/
+
+# Wrangler 本地缓存与部署状态
+.wrangler/

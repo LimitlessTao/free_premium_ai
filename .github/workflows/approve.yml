@@ -1,0 +1,201 @@
+name: 投稿审批
+
+# 只监听 Issue 评论。权限校验在 job 层完成，未通过则不会获得写权限。
+on:
+  issue_comment:
+    types: [created]
+
+# 串行化所有审批：并发执行会导致两条投稿拿到相同 id
+concurrency:
+  group: submission-approval
+  cancel-in-progress: false
+
+jobs:
+  # 校验与执行分离：校验 job 只读，确认审批者身份后才让执行 job 拿到写权限
+  authorize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    outputs:
+      action: ${{ steps.check.outputs.action }}
+      reason: ${{ steps.check.outputs.reason }}
+    steps:
+      - id: check
+        uses: actions/github-script@v7
+        env:
+          APPROVER_GITHUB_IDS: ${{ vars.APPROVER_GITHUB_IDS }}
+        with:
+          script: |
+            const { comment, issue } = context.payload;
+
+            // 静默退出：不向未授权者反馈任何信息，避免给捣乱者试探的依据
+            const deny = (why) => {
+              core.info(`忽略：${why}`);
+              core.setOutput('action', 'none');
+            };
+
+            // PR 也会触发 issue_comment，需排除
+            if (issue.pull_request) return deny('目标是 PR 而非 Issue');
+
+            const body = (comment.body || '').trim();
+            const isApprove = body === '/approve';
+            const isReject = body.startsWith('/reject');
+            if (!isApprove && !isReject) return deny('非审批命令');
+
+            // 审批者以永久数字 ID 判定：ID 不随改名变化，也无法伪造
+            let approvers;
+            try {
+              approvers = JSON.parse(process.env.APPROVER_GITHUB_IDS || '[]');
+            } catch {
+              core.setFailed('APPROVER_GITHUB_IDS 不是合法 JSON 数组');
+              return;
+            }
+            if (!approvers.includes(comment.user.id)) {
+              return deny(`评论者 ${comment.user.login} 不在审批白名单`);
+            }
+
+            const labels = issue.labels.map((l) => l.name);
+            if (labels.includes('approved')) return deny('该投稿已入库');
+            if (labels.includes('processing')) return deny('该投稿正在处理中');
+
+            // 手动提交模式下 Issue 由投稿者本人创建，身份不可作为信任依据。
+            // 有效投稿的唯一标识是站点表单生成的机器数据标记：
+            // 校验标记必须恰好出现一个——零个说明不是站点投稿，
+            // 多个说明正文被篡改过（详见 scripts/approve.js）
+            const MARKERS = /<!--\s*fpai-submission:v1\s+[A-Za-z0-9_-]+\s*-->/g;
+            const markers = (issue.body || '').match(MARKERS) || [];
+            if (markers.length !== 1) return deny(`投稿数据标记数量异常：${markers.length}`);
+
+            if (isReject) {
+              const reason = body.slice('/reject'.length).trim();
+              if (!reason) {
+                core.setOutput('action', 'reject-no-reason');
+                return;
+              }
+              core.setOutput('action', 'reject');
+              core.setOutput('reason', reason);
+              return;
+            }
+
+            core.setOutput('action', 'approve');
+
+  # 拒绝流程：不修改任何文件，只标记与关闭
+  reject:
+    needs: authorize
+    if: needs.authorize.outputs.action == 'reject'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/github-script@v7
+        env:
+          REASON: ${{ needs.authorize.outputs.reason }}
+        with:
+          script: |
+            const issue_number = context.payload.issue.number;
+            const base = { owner: context.repo.owner, repo: context.repo.repo, issue_number };
+            await github.rest.issues.createComment({
+              ...base,
+              body: `### 投稿未通过审核\n\n${process.env.REASON}\n\n感谢你的投稿。如果情况有变化，欢迎重新提交。`,
+            });
+            await github.rest.issues.addLabels({ ...base, labels: ['rejected'] });
+            await github.rest.issues.update({ ...base, state: 'closed', state_reason: 'not_planned' });
+
+  # 缺少拒绝原因时提示管理员，避免公开审核记录缺少解释
+  reject-hint:
+    needs: authorize
+    if: needs.authorize.outputs.action == 'reject-no-reason'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              body: '拒绝投稿需要说明原因，请使用 `/reject 原因` 的格式。',
+            });
+
+  approve:
+    needs: authorize
+    if: needs.authorize.outputs.action == 'approve'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      # 先加 processing 标签占位，防止管理员重复评论导致重复入库
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              labels: ['processing'],
+            });
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 投稿内容经环境变量传入，不拼进命令行，避免命令注入
+      - id: entry
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: node scripts/approve.js
+
+      # 校验通过才提交：脏数据在此拦截，不会污染 main
+      - run: node tests/run.js
+      - run: node build.js
+      - run: node scripts/build-readme.js
+
+      - id: commit
+        env:
+          PLATFORM_ID: ${{ steps.entry.outputs.platform_id }}
+          PLATFORM_TITLE: ${{ steps.entry.outputs.platform_title }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/platforms.json README.md
+          git commit -m "feat: 收录 ${PLATFORM_TITLE} (#${ISSUE_NUMBER})"
+          git push
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - if: success()
+        uses: actions/github-script@v7
+        env:
+          SUMMARY: ${{ steps.entry.outputs.summary }}
+          SHA: ${{ steps.commit.outputs.sha }}
+        with:
+          script: |
+            const issue_number = context.payload.issue.number;
+            const base = { owner: context.repo.owner, repo: context.repo.repo, issue_number };
+            const url = `https://github.com/${context.repo.owner}/${context.repo.repo}/commit/${process.env.SHA}`;
+            await github.rest.issues.createComment({
+              ...base,
+              body: `### 投稿已收录\n\n${process.env.SUMMARY}\n\n提交记录：${url}\n\n网站将在部署完成后更新，感谢你的贡献。`,
+            });
+            await github.rest.issues.addLabels({ ...base, labels: ['approved'] });
+            await github.rest.issues.removeLabel({ ...base, name: 'processing' }).catch(() => {});
+            await github.rest.issues.update({ ...base, state: 'closed', state_reason: 'completed' });
+
+      # 任一步失败则回滚标签并保留 Issue 打开，不产生半完成状态
+      - if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue_number = context.payload.issue.number;
+            const base = { owner: context.repo.owner, repo: context.repo.repo, issue_number };
+            const run = `https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            await github.rest.issues.removeLabel({ ...base, name: 'processing' }).catch(() => {});
+            await github.rest.issues.createComment({
+              ...base,
+              body: `### 入库失败\n\n请查看[运行日志](${run})了解原因。修正后可再次评论 \`/approve\`。`,
+            });

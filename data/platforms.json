@@ -1,0 +1,359 @@
+{
+  "site_title": "free premium ai",
+  "site_logo_url": "https://avatars.githubusercontent.com/u/251143027?v=4",
+  "site_sub_title": "免费用上最强的 AI 模型",
+  "site_description": "收录能免费使用、能力较强的 AI 平台。请保持合理预期：免费、稳定、高性能是不可兼得的「不可能三角」。本项目不推荐任何平台，如平台或活动失效，欢迎投稿反馈。",
+  "repo_url": "https://github.com/swufe-xiongmin/free_premium_ai",
+  "platforms": [
+    {
+      "id": 1,
+      "title": "Hypercharm",
+      "url": "https://hyper.charm.land/",
+      "note": "每月赠送 5 美元，推荐 Gmail 登录",
+      "description": "每月赠送5美元，推荐gmail登录，其他邮箱容易被认为恶意用户封禁账号",
+      "free_premium_model": [
+        "glm5.2",
+        "kimi-k3"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-08-11"
+    },
+    {
+      "id": 2,
+      "title": "AgentRouter",
+      "url": "https://agentrouter.org/register?aff=P9gT",
+      "note": "Linuxdo 或满 1 年 GitHub 账号领 50 美元，每日签到 25 美元",
+      "description": "Linuxdo账号或注册时长满1年的Github账号登录即领50美元余额，每日签到25美元",
+      "free_premium_model": [
+        "gpt5.6",
+        "claude-opus-5"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-08-10"
+    },
+    {
+      "id": 3,
+      "title": "Anyrouter",
+      "url": "https://anyrouter.top/register?aff=2fQk",
+      "note": "Linuxdo 或 EDU.CN 邮箱领 100 美元，每日签到 25 美元",
+      "description": "Linuxdo账号或EDU.CN邮箱账号登录即领100美元余额，每日签到25美元。限制CODEX/CLAUDECODE 平台调用，使用人数较多，资源较为紧张",
+      "free_premium_model": [
+        "claude-opus-4-8",
+        "gpt-5.6"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-08-09"
+    },
+    {
+      "id": 4,
+      "title": "硅基流动",
+      "url": "https://cloud.siliconflow.cn/i/0PQYt6ok",
+      "note": "注册送 16 元余额，需手机号与实名认证",
+      "description": "注册获得16元余额，需要手机号与实名认证",
+      "free_premium_model": [
+        "glm5.2",
+        "kimi-k3"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-07-28"
+    },
+    {
+      "id": 5,
+      "title": "Modal",
+      "url": "https://modal.com/",
+      "note": "绑卡后每月 30 美元额度，需自行部署",
+      "description": "注册后绑定银行卡，每月可获得30美元额度，可在 https://modal.com/endpoints 部署：shared类型-kimi k3",
+      "free_premium_model": [
+        "kimi-k3"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-07-25"
+    },
+    {
+      "id": 6,
+      "title": "七牛云",
+      "url": "https://s.qiniu.com/eAJba2",
+      "note": "注册送 300 万 Token，计费非标准模式",
+      "description": "注册送300万Token，计费非标准模式，建议仅用于对话备用",
+      "free_premium_model": [
+        "gpt5.6",
+        "claude-opus-4.8",
+        "glm5.2"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-07-20"
+    },
+    {
+      "id": 7,
+      "title": "基元律动",
+      "url": "https://tokenrhythm.studio/i/rf_tr_q_OtzT9K2rv5AkDatMntqt32",
+      "note": "注册即送 68 元",
+      "description": "",
+      "free_premium_model": [
+        "glm5.2"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-07-18"
+    },
+    {
+      "id": 8,
+      "title": "vsllm",
+      "url": "https://vsllm.com/register?aff=3eFX",
+      "note": "每日签到得 50 万配额，另有抽卡与开源项目额度",
+      "description": "注册后到个人中心（https://vsllm.com/console/personal）每日签到可得 500000 配额，抽卡随机获得额度，开源项目可得额度",
+      "free_premium_model": [
+        "gpt-5.6",
+        "claude-opus-4-8"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-07-15"
+    },
+    {
+      "id": 9,
+      "title": "sharedchat",
+      "url": "https://new.sharedchat.cc/list/#/register",
+      "note": "注册送 100 刀，限 QQ 邮箱",
+      "description": "注册送100刀，限QQ邮箱",
+      "free_premium_model": [
+        "gpt-5.6"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-07-12"
+    },
+    {
+      "id": 10,
+      "title": "v0",
+      "url": "https://v0.app/ref/DBOAIS",
+      "note": "新用户 5 刀额度，需 AFF 链接注册并配 2API",
+      "description": "需要从AFF链接注册，AFF链接似乎需要会员用户才可生成，如果本项目提供的失效了，欢迎各位PR提供自己的。新用户5刀额度，需要2API（https://github.com/fatkun/v0app2api），保真Claude",
+      "free_premium_model": [
+        "claude-opus-4.8"
+      ],
+      "status_bool": true,
+      "poster_githubname": "fatkun",
+      "updatetime": "2026-07-10"
+    },
+    {
+      "id": 11,
+      "title": "Token能量站",
+      "url": "https://factory.pub/register?aff=99iP",
+      "note": "注册送 2.5 刀，每日签到随机 0.1 刀以上",
+      "description": "注册送2.5刀，每日签到随机0.1刀以上，注册限制邮箱",
+      "free_premium_model": [
+        "gpt5.6"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-07-05"
+    },
+    {
+      "id": 12,
+      "title": "可萌中转站",
+      "url": "https://api456.me/register?aff=H0IO",
+      "note": "注册送约 50 次 Claude Opus 4.6 调用",
+      "description": "注册送约50次Claude opus 4.6 调用次数",
+      "free_premium_model": [
+        "gpt5.4",
+        "claude4.6-opus"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-07-01"
+    },
+    {
+      "id": 13,
+      "title": "POIXE",
+      "url": "https://poixe.com/i/ocyymy",
+      "note": "免费规则较复杂，详见官方说明页",
+      "description": "规则较复杂，具体请查看官方免费额度与注册说明：https://poixe.com/products/free",
+      "free_premium_model": [
+        "gemini-3.1-pro",
+        "claude-4-6-sonnet"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-06-28"
+    },
+    {
+      "id": 14,
+      "title": "AihubMix",
+      "url": "https://aihubmix.com/?aff=DwLF",
+      "note": "每日 100 万 Token",
+      "description": "",
+      "free_premium_model": [
+        "glm-5.2"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-06-20"
+    },
+    {
+      "id": 15,
+      "title": "魔搭/ModelScope",
+      "url": "https://modelscope.cn",
+      "note": "手机号登录，每日签到得 250 积分，需实名认证",
+      "description": "手机号登录，每天登录后可获得250积分，计费规则见积分规则文档。相对于以前额度大砍，需要实名认证。国际版（https://modelscope.ai）可以邮箱登录，但需要绑定国际版阿里云账号",
+      "free_premium_model": [
+        "glm-5.2"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-06-15"
+    },
+    {
+      "id": 16,
+      "title": "Gemini 商业版",
+      "url": "https://business.gemini.google/",
+      "note": "邮箱注册免费用 30 天，存在降智，无 API",
+      "description": "邮箱注册即可免费使用30天，但模型存在降智问题，无API",
+      "free_premium_model": [
+        "gemini-3.1-pro"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-06-10"
+    },
+    {
+      "id": 17,
+      "title": "Github Models",
+      "url": "https://github.com/marketplace/models",
+      "note": "按账号等级每日限额",
+      "description": "根据账号决定，每日限额",
+      "free_premium_model": [
+        "gpt-5"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-06-05"
+    },
+    {
+      "id": 18,
+      "title": "微软 Copilot 商业版",
+      "url": "https://m365.cloud.microsoft/",
+      "note": "订阅用户无限量使用，无 API",
+      "description": "无限量，需要E5/E3/高级版订阅。E5/E3账号可以通过教程免费获取，无API",
+      "free_premium_model": [
+        "gpt-5.6"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-06-01"
+    },
+    {
+      "id": 19,
+      "title": "Codex 限时免费",
+      "url": "https://openai.com/codex/",
+      "note": "所有 GPT 用户均可免费使用",
+      "description": "目前所有GPT用户都可以免费使用Codex的GPT-5.6 luna 和terra 模型",
+      "free_premium_model": [
+        "gpt-5.6-luna",
+        "gpt-5.6-terra"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-05-28"
+    },
+    {
+      "id": 20,
+      "title": "英伟达Build",
+      "url": "https://build.nvidia.com/",
+      "note": "80 RPM 免费调用，需绑定手机号",
+      "description": "80rpm，需要绑定手机号",
+      "free_premium_model": [
+        "glm-5.2",
+        "deepseekv4pro"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-05-20"
+    },
+    {
+      "id": 21,
+      "title": "Sophnet",
+      "url": "https://www.sophnet.com/?code=TFWAWE",
+      "note": "注册送 100 元信用额度，每日签到送 0.1M Token",
+      "description": "注册送100元信用额度，每日签到送 0.1M Token。注册需要手机号，注册后进入SophClaw，左下角用户中心可以签到，与Claw对话要求输出当前Model配置文件得到APIKEY与URL，可在外网使用（注册开通龙虾送20元，其中10元用于龙虾扣费，另外10元可用于API 存疑）",
+      "free_premium_model": [
+        "glm5.2",
+        "deepseekv4pro"
+      ],
+      "status_bool": true,
+      "poster_githubname": "Auunes",
+      "updatetime": "2026-05-15"
+    },
+    {
+      "id": 22,
+      "title": "zaiwen",
+      "url": "https://chat.zaiwenai.com/?channel-code=695a2177ff8fe129b80fdee1",
+      "note": "注册送 99999 积分，仅限网页聊天",
+      "description": "注册送99999点积分，仅限网页聊天",
+      "free_premium_model": [
+        "glm5.2"
+      ],
+      "status_bool": true,
+      "poster_githubname": "Auunes",
+      "updatetime": "2026-05-12"
+    },
+    {
+      "id": 23,
+      "title": "AirForce",
+      "url": "https://api.airforce/signup?ref=S0QA8UXYtVQF073O",
+      "note": "每天 1000 次请求，每分钟 1 次",
+      "description": "每天一千次请求，每分钟一次请求，需要谷歌或GitHub注册",
+      "free_premium_model": [
+        "glm5.2"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-05-08"
+    },
+    {
+      "id": 24,
+      "title": "网易有道云",
+      "url": "https://ai.youdao.com/new/",
+      "note": "注册送 10 元，填问卷再得 50 元",
+      "description": "注册送10元余额，填写问卷（注册后弹出的企业微信好友，添加后填写问卷）得50元，实名认证得40元（非必须）",
+      "free_premium_model": [
+        "glm5.2"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-05-01"
+    },
+    {
+      "id": 25,
+      "title": "Monkeycode",
+      "url": "https://monkeycode-ai.com/?ic=019fb694-e1ca-726e-a8dc-00d5e22b60ad",
+      "note": "每日 3000 万 Token，签到送积分续用",
+      "description": "每日3000万Token，用完隔日刷新；每天签到送100积分，当每日Token额度用完时可以使用积分继续调用模型。注册需要手机号，仅限平台内使用，无api",
+      "free_premium_model": [
+        "glm5.2"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-04-25"
+    },
+    {
+      "id": 26,
+      "title": "runninghub - 海马云",
+      "url": "https://www.runninghub.cn?inviteCode=ixsgqxpm",
+      "note": "注册后送 500 积分；vibex 网页对话（Agent 模式）目前无限量",
+      "description": "注册后送 500 积分，积分用途未明。访问 https://vibex.runninghub.cn/ 可免费使用 GLM5.2 与 Qwen3.8 Max 网页对话（Agent 模式），目前无限量。",
+      "free_premium_model": [
+        "glm5.2-qwen3.8-max"
+      ],
+      "status_bool": true,
+      "poster_githubname": "",
+      "updatetime": "2026-08-11"
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+/* ============================================
+   Bento Grid 卡片 —— 下限保底、上限截断、中间自适应
+   等宽由 grid 列保证；高度不强制对齐，每张卡按自身内容伸缩，
+   短内容撑到 --card-min 保持体面，长内容到 --card-max 截断
+   ============================================ */
+
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* start 取消默认拉伸，使卡片高度由内容决定而非被同行最高者撑开 */
+  align-items: start;
+  gap: var(--sp-4);
+}
+
+.bento-card {
+  display: flex;
+  flex-direction: column;
+  /* 内容不足时撑到下限，超出时止于上限，两者之间自由伸缩 */
+  min-height: var(--card-min);
+  max-height: var(--card-max);
+  padding: var(--sp-5);
+  border-radius: var(--radius-lg);
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(160%);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-glass);
+  position: relative;
+  overflow: hidden;
+  transition: background 0.22s ease, border-color 0.22s ease,
+    box-shadow 0.22s ease, transform 0.22s cubic-bezier(0.2, 0.8, 0.3, 1);
+}
+
+/* 顶部高光：玻璃质感的关键细节，模拟光线在边缘的折射 */
+.bento-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 12%;
+  right: 12%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.85),
+    transparent
+  );
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .bento-card::before {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.22),
+      transparent
+    );
+  }
+}
+
+.bento-card:hover {
+  background: var(--glass-bg-hover);
+  border-color: var(--glass-border-hover);
+  box-shadow: var(--shadow-glass-hover);
+  transform: translateY(-3px);
+}
+
+/* ---------- 卡头：首字母色块 + 标题 ---------- */
+
+.card-head {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-4);
+}
+
+/* 首字母色块，颜色由平台名哈希决定，同名恒定同色 */
+.card-avatar {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  display: grid;
+  place-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.28),
+    0 2px 8px rgba(30, 35, 60, 0.14);
+  user-select: none;
+}
+
+.card-headings {
+  min-width: 0;
+  flex: 1;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 680;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+  color: var(--text-strong);
+  /* 超长平台名截断，避免撑破卡片 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-domain {
+  display: block;
+  font-size: 12px;
+  color: var(--text-faint);
+  font-family: var(--font-mono);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 1px;
+}
+
+/* ---------- 模型标签 ---------- */
+
+.model-block {
+  margin-bottom: var(--sp-3);
+}
+
+/* 标注让访客明白下方标签的含义 */
+.model-label {
+  display: block;
+  font-size: 11.5px;
+  font-weight: 560;
+  letter-spacing: 0.02em;
+  color: var(--text-faint);
+  margin-bottom: 5px;
+}
+
+.model-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-1);
+  /* 固定两行高度，多出的模型折叠为 +N，保证卡片结构齐平 */
+  max-height: 46px;
+  overflow: hidden;
+}
+
+.model-tag {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1.6;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  background: var(--tag-bg);
+  border: 1px solid var(--tag-border);
+  color: var(--tag-text);
+  white-space: nowrap;
+}
+
+.model-tag.more {
+  color: var(--text-faint);
+  background: transparent;
+}
+
+/* ---------- 正文说明 ---------- */
+
+.card-note {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.62;
+  color: var(--text-muted);
+  /*
+   * note 是卡片的核心信息，禁止 flex 将其压缩到不可见。
+   * 两行作为视觉下限，三行作为内容上限，介于两者时按内容自然增长。
+   */
+  flex: 0 0 auto;
+  min-height: 3.24em;
+  max-height: 4.86em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+  word-break: break-word;
+  /* 渐隐遮罩：被截断处自然淡出，比硬切边缘更柔和，也暗示内容未完 */
+  mask-image: linear-gradient(to bottom, #000 calc(100% - 22px), transparent);
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    #000 calc(100% - 22px),
+    transparent
+  );
+}
+
+/* 内容未溢出时不需要渐隐，由 JS 加 is-clamped 类区分 */
+.card-note:not(.is-clamped) {
+  mask-image: none;
+  -webkit-mask-image: none;
+}
+
+/* ---------- 卡片底部 ---------- */
+
+.card-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--sp-2);
+  margin-top: var(--sp-4);
+  padding-top: var(--sp-3);
+  border-top: 1px solid var(--tag-border);
+  font-size: 12px;
+  color: var(--text-faint);
+}
+
+.card-foot .foot-left {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-foot .meta-poster a {
+  color: var(--text-muted);
+}
+
+.card-foot time {
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+/* ---------- 操作区：悬停浮现 ---------- */
+
+.card-actions {
+  display: flex;
+  gap: var(--sp-2);
+  margin-top: var(--sp-3);
+}
+
+.card-action {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 8px 10px;
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: 560;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--tag-border);
+  background: var(--tag-bg);
+  color: var(--text-body);
+  cursor: pointer;
+  transition: background 0.16s, border-color 0.16s, color 0.16s;
+  white-space: nowrap;
+}
+
+.card-action:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.card-action.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.card-action.primary:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+  color: #fff;
+}
+
+/* ---------- 详情弹窗：查看完整说明 ---------- */
+
+.detail-modal {
+  max-width: 520px;
+}
+
+.detail-head {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-4);
+}
+
+.card-avatar.avatar-lg {
+  width: 46px;
+  height: 46px;
+  border-radius: 13px;
+  font-size: 19px;
+}
+
+.detail-head .modal-title {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-strong);
+  line-height: 1.25;
+}
+
+.detail-models {
+  margin-bottom: var(--sp-4);
+}
+
+/* 详情内的标签不受两行高度限制，需完整展示 */
+.detail-models .model-block {
+  margin-bottom: 0;
+}
+
+.detail-models .model-tags {
+  max-height: none;
+}
+
+.detail-note {
+  margin: 0 0 var(--sp-4);
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--text-body);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.detail-note a {
+  word-break: break-all;
+}
+
+.detail-meta {
+  display: flex;
+  gap: var(--sp-5);
+  padding-top: var(--sp-4);
+  border-top: 1px solid var(--tag-border);
+  font-size: 12.5px;
+  color: var(--text-faint);
+  flex-wrap: wrap;
+}
+
+@media (max-width: 720px) {
+  .bento-grid {
+    grid-template-columns: 1fr;
+    gap: var(--sp-3);
+  }
+
+  /* 手机端保留同一内容下限，避免 note 再次被固定区域挤掉 */
+  .bento-card {
+    min-height: var(--card-min);
+    max-height: var(--card-max);
+    padding: var(--sp-4);
+  }
+}
