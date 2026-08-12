@@ -47,7 +47,7 @@
 
 链接： [Hypercharm](https://hyper.charm.land/)
 
-高级模型: glm5.2 kimi-k3
+高级模型: glm-5.2 kimi-k3
 
 免费额度与注册说明： 每月赠送5美元，推荐gmail登录，其他邮箱容易被认为恶意用户封禁账号
 
@@ -55,7 +55,7 @@
 
 链接： [AgentRouter](https://agentrouter.org/register?aff=P9gT)
 
-高级模型: gpt5.6 claude-opus-5
+高级模型: gpt-5.6 claude-opus-5
 
 免费额度与注册说明： Linuxdo账号或注册时长满1年的Github账号登录即领50美元余额，每日签到25美元
 
@@ -71,7 +71,7 @@
 
 链接： [硅基流动](https://cloud.siliconflow.cn/i/0PQYt6ok)
 
-高级模型: glm5.2 kimi-k3
+高级模型: glm-5.2 kimi-k3
 
 免费额度与注册说明： 注册获得16元余额，需要手机号与实名认证
 
@@ -87,15 +87,15 @@
 
 链接： [七牛云](https://s.qiniu.com/eAJba2)
 
-高级模型: gpt5.6 claude-opus-4.8 glm5.2
+高级模型: gpt-5.6 claude-opus-4.8 glm-5.2
 
-免费额度与注册说明： 注册送300万Token，计费非标准模式，建议仅用于对话备用
+免费额度与注册说明： 注册送300万Token，计费非标准模式，建议仅用于对话备用，海外模型通过 https://api.modelink.ai 端点调用
 
 ### 基元律动
 
 链接： [基元律动](https://tokenrhythm.studio/i/rf_tr_q_OtzT9K2rv5AkDatMntqt32)
 
-高级模型: glm5.2
+高级模型: glm-5.2
 
 免费额度与注册说明： 注册即送 68 元
 
@@ -129,7 +129,7 @@
 
 链接： [Token能量站](https://factory.pub/register?aff=99iP)
 
-高级模型: gpt5.6
+高级模型: gpt-5.6
 
 免费额度与注册说明： 注册送2.5刀，每日签到随机0.1刀以上，注册限制邮箱
 
@@ -137,15 +137,15 @@
 
 链接： [可萌中转站](https://api456.me/register?aff=H0IO)
 
-高级模型: gpt5.4 claude4.6-opus
+高级模型: glm-5.2
 
-免费额度与注册说明： 注册送约50次Claude opus 4.6 调用次数
+免费额度与注册说明： 注册送约1.5余额，但每日可签到
 
 ### POIXE
 
 链接： [POIXE](https://poixe.com/i/ocyymy)
 
-高级模型: gemini-3.1-pro claude-4-6-sonnet
+高级模型: gpt-5.6 claude-opus-5
 
 免费额度与注册说明： 规则较复杂，具体请查看官方免费额度与注册说明：https://poixe.com/products/free
 
@@ -209,7 +209,7 @@
 
 链接： [Sophnet](https://www.sophnet.com/?code=TFWAWE)
 
-高级模型: glm5.2 deepseekv4pro
+高级模型: glm-5.2
 
 免费额度与注册说明： 注册送100元信用额度，每日签到送 0.1M Token。注册需要手机号，注册后进入SophClaw，左下角用户中心可以签到，与Claw对话要求输出当前Model配置文件得到APIKEY与URL，可在外网使用（注册开通龙虾送20元，其中10元用于龙虾扣费，另外10元可用于API 存疑）
 
@@ -219,7 +219,7 @@
 
 链接： [zaiwen](https://chat.zaiwenai.com/?channel-code=695a2177ff8fe129b80fdee1)
 
-高级模型: glm5.2
+高级模型: glm-5.2
 
 免费额度与注册说明： 注册送99999点积分，仅限网页聊天
 
@@ -229,7 +229,7 @@
 
 链接： [AirForce](https://api.airforce/signup?ref=S0QA8UXYtVQF073O)
 
-高级模型: glm5.2
+高级模型: glm-5.2
 
 免费额度与注册说明： 每天一千次请求，每分钟一次请求，需要谷歌或GitHub注册
 
@@ -237,7 +237,7 @@
 
 链接： [网易有道云](https://ai.youdao.com/new/)
 
-高级模型: glm5.2
+高级模型: glm-5.2
 
 免费额度与注册说明： 注册送10元余额，填写问卷（注册后弹出的企业微信好友，添加后填写问卷）得50元，实名认证得40元（非必须）
 
@@ -245,7 +245,7 @@
 
 链接： [Monkeycode](https://monkeycode-ai.com/?ic=019fb694-e1ca-726e-a8dc-00d5e22b60ad)
 
-高级模型: glm5.2
+高级模型: glm-5.2
 
 免费额度与注册说明： 每日3000万Token，用完隔日刷新；每天签到送100积分，当每日Token额度用完时可以使用积分继续调用模型。注册需要手机号，仅限平台内使用，无api
 
@@ -253,7 +253,7 @@
 
 链接： [runninghub - 海马云](https://www.runninghub.cn?inviteCode=ixsgqxpm)
 
-高级模型: glm5.2-qwen3.8-max
+高级模型: glm-5.2 qwen-3.8-max
 
 免费额度与注册说明： 注册后送 500 积分，积分用途未明。访问 https://vibex.runninghub.cn/ 可免费使用 GLM5.2 与 Qwen3.8 Max 网页对话（Agent 模式），目前无限量。
 
