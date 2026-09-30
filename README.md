@@ -101,13 +101,13 @@
 
 免费额度与注册说明： 注册即送 68 元
 
-### vsllm
+### AMD开发者
 
-链接： [vsllm](https://vsllm.com/register?aff=3eFX)
+链接： [AMD开发者](https://developer.amd.com.cn/radeon/tokenfactory)
 
-高级模型: gpt-5.6 claude-opus-4-8
+高级模型: GLM-5.3-flash claude-opus-4-8
 
-免费额度与注册说明： 注册后到个人中心（https://vsllm.com/console/personal）每日签到可得 500000 配额，抽卡随机获得额度，开源项目可得额度
+免费额度与注册说明： 每天刷新10美元额度，可以用邮箱注册
 
 ### sharedchat
 
