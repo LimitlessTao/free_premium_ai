@@ -40,7 +40,7 @@
       "note": "Linuxdo 或 EDU.CN 邮箱领 100 美元，每日签到 25 美元",
       "description": "Linuxdo账号或EDU.CN邮箱账号登录即领100美元余额，每日签到25美元。限制CODEX/CLAUDECODE 平台调用，使用人数较多，资源较为紧张",
       "free_premium_model": [
-        "claude-opus-4-8",
+        "claude-opus-4-8"
         "gpt-5.6"
       ],
       "status_bool": true,
@@ -104,12 +104,12 @@
     },
     {
       "id": 8,
-      "title": "vsllm",
-      "url": "https://vsllm.com/register?aff=3eFX",
-      "note": "每日签到得 50 万配额，另有抽卡与开源项目额度",
-      "description": "注册后到个人中心（https://vsllm.com/console/personal）每日签到可得 500000 配额，抽卡随机获得额度，开源项目可得额度",
+      "title": "AMD开发者",
+      "url": "https://developer.amd.com.cn/radeon/tokenfactory",
+      "note": "",
+      "description": "每天刷新10美元额度，可以用邮箱注册",
       "free_premium_model": [
-        "gpt-5.6",
+        "GLM-5.3-flash",
         "claude-opus-4-8"
       ],
       "status_bool": true,
