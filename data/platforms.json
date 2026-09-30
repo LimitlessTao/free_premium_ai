@@ -40,7 +40,7 @@
       "note": "Linuxdo 或 EDU.CN 邮箱领 100 美元，每日签到 25 美元",
       "description": "Linuxdo账号或EDU.CN邮箱账号登录即领100美元余额，每日签到25美元。限制CODEX/CLAUDECODE 平台调用，使用人数较多，资源较为紧张",
       "free_premium_model": [
-        "claude-opus-4-8"
+        "claude-opus-4-8",
         "gpt-5.6"
       ],
       "status_bool": true,
