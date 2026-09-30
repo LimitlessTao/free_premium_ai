@@ -106,7 +106,7 @@
       "id": 8,
       "title": "AMD开发者",
       "url": "https://developer.amd.com.cn/radeon/tokenfactory",
-      "note": "",
+      "note": "每天10美元",
       "description": "每天刷新10美元额度，可以用邮箱注册",
       "free_premium_model": [
         "GLM-5.3-flash",
